@@ -1,0 +1,32 @@
+print("hello world \n")
+num1 = 10                                  #int
+print("Type of num1  = ",type(num1))
+num2 = 10.20                               #float
+print("Type of num2  = ",type(num2))
+num3 = 2+4j                                #complex
+print("Type of num3  = ",type(num3))
+num4 = 'manas'                             #str
+print("Type of num4  = ",type(num4))
+num5 = ["manas","verma"]                   #list
+print("Type of num5  = ",type(num5))
+num6 = ("manas","verma")                   #tuple
+print("Type of num6  = ",type(num6))
+num7= range(10)                            #range
+print("Type of num7  = ",type(num7))
+num8 = {"name":"Manas Verma","Age":19}     #dict
+print("Type of num8  = ",type(num8))
+num9 = {"manas","verma"}                   #set
+print("Type of num9  = ",type(num9))
+num10 = frozenset({"python","programming"})#frozenset
+print("Type of num10 = ",type(num10))
+num11 = True                               #bool
+print("Type of num11 = ",type(num11))
+num12 = b"python"                          #bytes
+print("Type of num12 = ",type(num12))
+num13 = bytearray(4)                       #bytearray
+print("Type of num13 = ",type(num13))
+num14 = memoryview(bytes(6))               #memoryview
+print("Type of num14 = ",type(num14))
+num15 = None                               #NoneType
+print("Type of num15 = ",type(num15))
+
